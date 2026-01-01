@@ -3,8 +3,8 @@ description: "أفضل خدمات الطباعة حسب الطلب في مصر -
 author: Monster Print
 lang: ar
 
-url: ""
-baseurl: "" # GitHub Pages: /repo-name
+url: "https://abdallah-miri.github.io"
+baseurl: "/monster_print"
 
 markdown: kramdown
 permalink: pretty
