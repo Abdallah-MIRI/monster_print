@@ -2,9 +2,9 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "monster_print"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["Abdallah-MIRI"]
-  spec.email         = ["abdallahhaboharba@gmail.com"]
+  spec.email         = ["abdallah@example.com"]
 
   spec.summary       = "A Jekyll theme for Monster Print Store."
   spec.homepage      = "https://abdallah-miri.github.io/monster_print/"
