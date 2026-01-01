@@ -1,0 +1,34 @@
+title: MONSTER PRINT
+description: "أفضل خدمات الطباعة حسب الطلب في مصر - تيشرتات، أكواب، ملصقات والمزيد!"
+author: Monster Print
+lang: ar
+
+url: ""
+baseurl: "" # GitHub Pages: /repo-name
+
+markdown: kramdown
+permalink: pretty
+
+source: .
+destination: _site
+
+# layouts_dir: _layouts
+# includes_dir: _includes
+
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - tailwind.config.js
+  - postcss.config.js
+  - README.md
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

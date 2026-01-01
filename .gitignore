@@ -1,0 +1,32 @@
+# Node / Tailwind
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+.out/
+.cache/
+
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Tailwind
+tailwind.css
+tailwind.config.js.timestamp*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Env
+.env
+.env.*

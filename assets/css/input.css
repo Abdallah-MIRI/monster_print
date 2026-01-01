@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Playpen Sans Arabic";
+  src: url("../fonts/PlaypenSansArabic/PlaypenSansArabic-Regular.ttf")
+    format("ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playpen Sans Arabic";
+  src: url("../fonts/PlaypenSansArabic/PlaypenSansArabic-Medium.ttf")
+    format("ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Playpen Sans Arabic";
+  src: url("../fonts/PlaypenSansArabic/PlaypenSansArabic-Bold.ttf")
+    format("ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Playpen Sans Arabic", system-ui, sans-serif;
+}
+
+.bacckground-grid {
+  width: 100%;
+  height: 100%;
+  --color: #e1e1e1;
+  background-color: #f3f3f3;
+  background-image: linear-gradient(
+      0deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    ),
+    linear-gradient(
+      90deg,
+      transparent 24%,
+      var(--color) 25%,
+      var(--color) 26%,
+      transparent 27%,
+      transparent 74%,
+      var(--color) 75%,
+      var(--color) 76%,
+      transparent 77%,
+      transparent
+    );
+  background-size: 55px 55px;
+}
+
+/* Custom styles for the header navigation */
+.slanted-underline {
+  position: relative;
+}
+
+.slanted-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0;
+  height: 2px;
+  background-color: currentColor;
+  transform: skewX(-12deg);
+  transition: width 0.3s ease;
+}
+
+.slanted-underline:hover::after {
+  width: 100%;
+}
+
+/* Menu Header */
+.menu-nav-fixed {
+  position: fixed;
+  top: 15%;
+  z-index: 100;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.menu-nav-fixed nav ul {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu-nav-fixed a {
+  margin: initial;
+}
