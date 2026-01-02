@@ -1,0 +1,16 @@
+{
+  "name": "Monster Print",
+  "short_name": "MonsterPrint",
+  "start_url": "/monster_print/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#039be5",
+  "description": "شركة تصميم وطباعة",
+  "icons": [
+    {
+      "src": "/assets/img/MP.svg",
+      "sizes": "192x192",
+      "type": "image/svg"
+    }
+  ]
+}

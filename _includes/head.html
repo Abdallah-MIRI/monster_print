@@ -1,15 +1,18 @@
 <meta charset="UTF-8" />
 <title>{{ page.title | default: site.title }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="icon" href="{{ site.baseurl }}/assets/img/MP.svg" />
 <meta name="description" content="{{ page.description | default: site.description }}" />
 <meta name="author" content="{{ site.author.name }}" />
 <meta name="keywords" content="{{ page.keywords | default: site.keywords }}" />
 <meta name="language" content="ar" />
+<meta name="theme-color" content="#039be5">
 <meta http-equiv="Content-Language" content="ar" />
-<link rel="alternate" hreflang="ar" href="{{ site.url }}{{ page.url }}" />
-<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+
 {% seo %}
 
+<link rel="icon" href="{{ site.baseurl }}/assets/img/MP.svg" />
+<link rel="alternate" hreflang="ar" href="{{ site.url }}{{ page.url }}" />
+<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+<link rel="manifest" href="{{ '/assets/manifest.json' | relative_url }}">
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/hamburgers.min.css" />
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/out.css" />
